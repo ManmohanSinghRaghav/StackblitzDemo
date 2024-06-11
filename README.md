@@ -1,6 +1,6 @@
 # StackBlitz Home Page Clone using React + Vite
 
-<a href='https://stackblitz-demo.vercel.app/' target='_blank' style="color:red">View Project</a>
+[View Live Project](https://stackblitz-demo.vercel.app "Click to View Project")<br><br>
 
 Currently, two official plugins are available:
 
