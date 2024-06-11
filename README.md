@@ -1,6 +1,6 @@
-# React + Vite
+# StackBlitz Home Page Clone using React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<a href='https://stackblitz-demo.vercel.app/' target='_blank' style="color:'red'">View Project</a>
 
 Currently, two official plugins are available:
 
