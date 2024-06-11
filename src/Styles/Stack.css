@@ -1,0 +1,237 @@
+.Grid_Link_button {
+    --stack-hover-border: transparent;
+    --stack-hover-background: var(--sb-luminosity-plus1);
+    --stack-icon-size: 24px;
+    --stack-icon-margin: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 240px;
+    padding: 0;
+    border: solid 1px transparent;
+    border-radius: 3px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 15px;
+    color: var(--sb-foreground);
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform .1s,opacity .1s
+}
+
+.Grid_Link_button[disabled] {
+    pointer-events: none;
+    cursor: default
+}
+
+.Grid_Link_button:not([disabled]):hover {
+    border-color: var(--stack-hover-border);
+    background-color: var(--stack-hover-background)
+}
+
+.Grid_home_BTN {
+    --public-button-background: rgb(39, 42, 48, .6);
+    --public-transition-hover-fast: .1s ease;
+    min-width: 250px;
+    max-width: 250px;
+    --stack-icon-size: 28px;
+    --stack-icon-margin: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    background-color: var(--public-button-background);
+    transition: var(--public-transition-hover-fast);
+    transition-property: background-color,box-shadow,transform
+}
+
+@media screen and (max-width: 500px) {
+    .Grid_home_BTN {
+        min-width:unset;
+        max-width: unset;
+        width: 100%
+    }
+}
+
+.Grid_home_BTN:not([disabled]):hover {
+    box-shadow: inset 0 0 0 1px var(--sb-foreground-highlight-high);
+    background-color: transparent;
+    transform: translateY(-2px)
+}
+
+.button_content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 7px 10px
+}
+
+.Grid_home_BTN .button_content {
+    padding: 20px 22px
+}
+
+.button_logo_grid {
+    display: block;
+    flex: none;
+    margin-right: var(--stack-icon-margin, 10px);
+    color: var(--sb-foreground-active)
+}
+
+.button_logo_grid>* {
+    display: block;
+    height: var(--stack-icon-size, 20px);
+    width: var(--stack-icon-size, 20px)
+}
+
+.grid_button_text {
+    display: block;
+    flex-shrink: 1;
+    max-width: calc(100% - var(--stack-icon-size) - var(--stack-icon-margin))
+}
+
+.grid_button_text>* {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.GB_title {
+    display: block;
+    font-weight: 600
+}
+
+.Grid_home_BTN .GB_title {
+    font-weight: 500;
+    transition: color var(--public-transition-hover-fast)
+}
+
+.Grid_home_BTN:not([disabled]):hover .GB_title {
+    color: #fff
+}
+
+.GB_row_2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px 6px
+}
+
+.GB_subtitle {
+    font-weight: 400;
+    opacity: .65;
+    font-size: 85%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.grid-card-section {
+    margin-bottom: 32px;
+    position: relative;
+    max-width: 100%
+}
+
+.grid-card-header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 44px;
+    margin-bottom: 24px;
+    color: var(--sb-foreground)
+}
+
+@media (max-width: 500px) {
+    .grid-card-header {
+        position:sticky;
+        z-index: 2;
+        top: 46px;
+        padding-top: 16px;
+        margin-inline:-12px;background-color: var(--public-bg-90)
+    }
+
+    .grid-card-header:before,.grid-card-header:after {
+        content: "";
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        width: 16px;
+        height: 100%;
+        pointer-events: none
+    }
+
+    .grid-card-header:before {
+        left: 0;
+        background-image: var(--public-bg-faux-fade-ltr)
+    }
+
+    .grid-card-header:after {
+        right: 0;
+        background-image: var(--public-bg-faux-fade-rtl)
+    }
+}
+
+.grid-card-tab {
+    position: relative;
+    align-self: flex-end;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: thin
+}
+
+.grid-card-Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    min-height: 100%;
+    min-width: 76px;
+    padding: 14px 22px 12px;
+    color: var(--sb-foreground-alt);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    white-space: nowrap;
+    border-bottom: solid 2px transparent;
+    background: transparent;
+    cursor: pointer
+}
+
+@media (max-width: 768px) {
+    .grid-card-Button {
+        min-width:60px;
+        padding-inline:12px}
+}
+
+@media screen and (max-width: 500px) {
+    .grid-card-Button {
+        padding-bottom:16px
+    }
+}
+
+.grid-card-Button[aria-current=true] {
+    color: var(--sb-foreground);
+    border-color: var(--sb-foreground-highlight-high)
+}
+
+.grid-card-Button:hover {
+    color: var(--sb-foreground-active)
+}
+
+.grid-card-Button:focus-visible {
+    outline: solid 2px var(--sb-control-border-focus);
+    outline-offset: -2px
+}
+
+.all_grid_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    min-height: 170px
+}
+
+.grid_icons svg {
+    width: 100%;
+    height: 100%
+}

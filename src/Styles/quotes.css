@@ -1,0 +1,188 @@
+.quote-container[data-quotes-wala] {
+    --quote-text-color: #fff;
+    --quote-text-secondary-color: #fff;
+    --quote-background-color: var(--public-dark-bg-00);
+    --quote-container-padding: 140px 16px;
+    --quote-container-background-color: var(--public-dark-bg-darkest);
+    --quote-width: 900px;
+    --quote-margin-bottom: 60px;
+    --quote-font-size: 36px;
+    --quote-font-weight: 400;
+    --quote-letter-spacing: -.32px;
+    --quote-line-height: 1.4;
+    --quote-author-name-gap: 8px;
+    --quote-author-name-font-size: 16px;
+    --quote-author-position-font-size: 16px;
+    --quote-author-img-size: 48px;
+    --quote-author-logo-img-size: 48px;
+    background-color: var(--quote-container-background-color);
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 72px;
+    width: 100%;
+    padding: var(--quote-container-padding)
+}
+
+@media screen and (max-width: 500px) {
+    .quote-container[data-quotes-wala] {
+        --quote-container-padding: 72px 16px;
+        --quote-margin-bottom: 52px;
+        --quote-font-size: 26px;
+        --quote-line-height: 1.4;
+        --quote-author-img-size: 40px;
+        --quote-author-logo-img-size: 32px;
+        --quote-author-position-font-size: 14px
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .quote-container[data-quotes-wala] {
+        border-radius: 16px
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .quote-container[data-quotes-wala] {
+        flex-direction: column;
+        gap: 32px
+    }
+}
+
+.quote-container[data-quotes-wala].themeLight {
+    --quote-background-color: none;
+    --quote-text-color: #000;
+    --quote-text-secondary-color: var(--public-light-text-60);
+    --quote-container-background-color: var(--public-blue-bg-light);
+    background-color: var(--public-blue-bg-lighter)
+}
+
+.quote-author__img[data-quotes-wala] {
+    --quote-author-profile-height: 84px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: var(--quote-author-profile-height)
+}
+
+.quote-author__img[data-quotes-wala] img[data-quotes-wala].profile {
+    width: var(--quote-author-profile-height);
+    height: 100%;
+    border-radius: calc(var(--quote-author-profile-height) / 2);
+    overflow: hidden
+}
+
+.quote-author__img__logo[data-quotes-wala] {
+    --quote-author-logo-height: 32px;
+    --quote-author-logo-padding: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -6px;
+    right: -36px;
+    width: calc(var(--quote-author-logo-height) + var(--quote-author-logo-padding));
+    height: calc(var(--quote-author-logo-height) + var(--quote-author-logo-padding));
+    border-radius: 50%;
+    background-color: #fff
+}
+
+.quote-author__img__logo[data-quotes-wala] img[data-quotes-wala] {
+    width: var(--quote-author-logo-height);
+    height: auto
+}
+
+.quote-content[data-quotes-wala] {
+    display: flex;
+    flex-direction: column;
+    gap: 32px
+}
+
+.quote[data-quotes-wala] {
+    max-width: 612px;
+    padding: 0;
+    border: none;
+    color: var(--quote-text-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: -.2px
+}
+
+.quote-container[data-quotes-wala].themeLight .quote[data-quotes-wala] {
+    letter-spacing: -.5px
+}
+
+.quote p:first-child {
+    margin-top: 32px
+}
+
+.quote p:first-child:before {
+    content: '"';
+    position: absolute;
+    margin-left: -8px
+}
+
+.quote p:last-child:after {
+    content: '"';
+    position: absolute;
+    margin-right: -8px
+}
+
+.quote p+p:not(:first-child) {
+    margin-top: 16px
+}
+
+.quote-author[data-quotes-wala] {
+    display: flex;
+    align-items: baseline;
+    gap: 20px
+}
+
+@media screen and (max-width: 640px) {
+    .quote-author[data-quotes-wala] {
+        flex-direction: column;
+        gap: 8px
+    }
+}
+
+.quote-author__name[data-quotes-wala] {
+    color: var(--quote-text-color);
+    font-size: 14px;
+    font-weight: 700
+}
+
+@media screen and (max-width: 500px) {
+    .quote-author__name[data-quotes-wala] {
+        font-size: 15px
+    }
+}
+
+.quote-author__name[data-quotes-wala]:is(a) {
+    color: var(--color-theme-dark-00)
+}
+
+.quote-author__subtitle[data-quotes-wala] {
+    color: var(--quote-text-color);
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: .8
+}
+
+@media screen and (max-width: 600px) {
+    .quote-author__subtitle[data-quotes-wala] {
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .quote-author__subtitle[data-quotes-wala] {
+        font-size: 14px
+    }
+}
+
+.quote-author__subtitle[data-quotes-wala]:is(a):hover {
+    text-decoration: underline
+}
