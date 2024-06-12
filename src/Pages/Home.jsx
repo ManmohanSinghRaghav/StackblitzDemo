@@ -151,29 +151,22 @@ export default function Home() {
                 <div className="container__content " data-how-to-wala-part="" data-intro-wrappers="">
                     <div className="section-heading" style={{}} data-sari-headings="">
                         <div className="heading" data-sari-headings="">
-                            <span className="iconAll Icon-magic_wand" style={{ width: '22px', height: '22px', backgroundColor: 'var(--public-blue-text-neutral)' }}>
-                            </span>
-                            <h5 style={{ color: 'var(--public-blue-text-neutral)' }} data-sari-headings="">
-                                For everything you can't do on local</h5>
+                            <span className="iconAll Icon-magic_wand" style={{ width: '22px', height: '22px', backgroundColor: 'var(--public-blue-text-neutral)' }}></span>
+                            <h5 style={{ color: 'var(--public-blue-text-neutral)' }} data-sari-headings=""> For everything you can't do on local </h5>
                         </div>
-                        <h1 data-sari-headings="">
-                            Simplify how you collaborate on design systems &amp; frontend code</h1>
+                        <h1 data-sari-headings=""> Simplify how you collaborate on design systems &amp; frontend code </h1>
                         <p data-how-to-wala-part="">
-                            <strong data-how-to-wala-part="">
-                                Local environments are critical for web development, but they have some major limitations.</strong>
+                            <strong data-how-to-wala-part=""> Local environments are critical for web development, but they have some major limitations. </strong>
                         </p>
-                        <p data-how-to-wala-part="">
-                            When frontend and design system teams need to collaborate, they use StackBlitz to easily share secure development environments with a single URL.</p>
+                        <p data-how-to-wala-part=""> When frontend and design system teams need to collaborate, they use StackBlitz to easily share secure development environments with a single URL. </p>
                     </div>
                     <div className="section-feature-list" data-list-ka="">
                         <div className="section-feature-list tight" data-how-to-wala-part="" data-list-ka="">
                             <div className="section-columns" data-how-to-wala-part="" data-all-paragraphs="">
                                 <div data-how-to-wala-part="">
-                                    <h3 data-how-to-wala-part="">
-                                        Take the "ugh" out of bug reproductions</h3>
+                                    <h3 data-how-to-wala-part=""> Take the "ugh" out of bug reproductions </h3>
                                     <p data-how-to-wala-part="">
-                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">
-                                            Share complete environments with only a URL</Link>
+                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part=""> Share complete environments with only a URL </Link>
                                         and never spin up heavy local installations for a simple bug reproduction <strong data-how-to-wala-part="">
                                             ever again.</strong>
                                     </p>
@@ -184,33 +177,27 @@ export default function Home() {
                             </div>
                             <div className="section-columns reverse" data-how-to-wala-part="" data-all-paragraphs="">
                                 <div data-how-to-wala-part="">
-                                    <h3 data-how-to-wala-part="">
-                                        Ship live, interactive documentation</h3>
+                                    <h3 data-how-to-wala-part=""> Ship live, interactive documentation </h3>
+                                    <p data-how-to-wala-part=""> Make it easy for your design system or open source users to get up and running quickly with live examples they can try out with a single click.</p>
                                     <p data-how-to-wala-part="">
-                                        Make it easy for your design system or open source users to get up and running quickly with live examples they can try out with a single click.</p>
-                                    <p data-how-to-wala-part="">
-                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">
-                                            Use the StackBlitz SDK</Link>
-                                        to embed <strong data-how-to-wala-part="">
-                                            actual code</strong>
+                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part=""> Use the StackBlitz SDK </Link>
+                                        to embed <strong data-how-to-wala-part=""> actual code </strong>
                                         in your documentation, blog, or website or build fully customized experiences with the
-                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">
-                                            WebContainer API</Link> .</p>
+                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part=""> WebContainer API </Link>.</p>
                                 </div>
                                 <img src="https://stackblitz.com/_astro/interactive_documentation.6m5EDrXi_Zdi3LG.webp" alt="Embed StackBlitz into documentation with the SDK for live coding examples" data-how-to-wala-part="" width="1345" height="957" loading="lazy" decoding="async" />
                             </div>
                             <div className="section-columns" data-how-to-wala-part="" data-all-paragraphs="">
                                 <div data-how-to-wala-part="">
-                                    <h3 data-how-to-wala-part="">
-                                        Prototype new ideas</h3>
+                                    <h3 data-how-to-wala-part=""> Prototype new ideas </h3>
                                     <p data-how-to-wala-part="">
-                                        Speed up your entire development process with <strong data-how-to-wala-part="">
+                                        Speed up your entire development process with 
+                                        <strong data-how-to-wala-part="">
                                             real time hot-reloading in the
                                             <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part=""> fastest dev environment ever made.</Link>
                                         </strong>
                                     </p>
-                                    <p data-how-to-wala-part="">
-                                        Don't let local configuration stand between you and building out your next great ideas.</p>
+                                    <p data-how-to-wala-part=""> Don't let local configuration stand between you and building out your next great ideas.</p>
                                 </div>
                                 <img src="https://stackblitz.com/_astro/rapid_prototyping.B1aed1fE_ZVnnJ.webp" alt="Collaborate between different devices and rapidly prototype with StackBlitz" data-how-to-wala-part="" width="1345" height="958" loading="lazy" decoding="async" />
                             </div>
