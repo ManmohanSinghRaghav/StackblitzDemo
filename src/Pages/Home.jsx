@@ -100,27 +100,19 @@ export default function Home() {
             <div data-theme="dark" className="container theme_dark home-intro" data-intro-pura="" data-intro-wrappers="">
                 <div className="container__content " data-intro-pura="" data-intro-wrappers="">
                     <HomeText />
-                    <p className="home_Blur" data-intro-pura="">
-                        Collaborate on web development without the hassle of setting up local environments.
-                        StackBlitz lets you <strong data-intro-pura=""> write</strong>
-                        , <strong data-intro-pura="">run</strong>
-                        , and <strong data-intro-pura="">debug</strong> frontend code directly in your browser.
-                    </p>
+                    <p className="home_Blur" data-intro-pura="">Collaborate on web development without the hassle of setting up local environments. StackBlitz lets you <strong data-intro-pura="">write</strong>, <strong data-intro-pura="">run</strong>, and <strong data-intro-pura="">debug</strong> frontend code directly in your browser.</p>
                     <div className="home-intro__button-container" data-intro-pura="">
                          <Link to="/" className="Link-style-Def Link-Style-1 accentLinkBlue size-thoda-bada">Create your first project</Link>
                          <Link to="/" className="Link-style-Def Link-Style-1 size-thoda-bada">Get a demo</Link>
                     </div>
-                    <h3 id="start_new_project" data-intro-pura="">
-                        Boot a shareable environment in <strong data-intro-pura="">milliseconds.</strong>
+                    <h3 id="start_new_project" data-intro-pura="">Boot a shareable environment in <strong data-intro-pura="">milliseconds.</strong>
                     </h3>
                     <GridTable />
                 </div>
             </div>
             <div data-theme="dark" className="container theme_dark_3 logo_grid" data-logo-wali-grid="" data-intro-wrappers="">
                 <div className="container__content " data-logo-wali-grid="" data-intro-wrappers="">
-                    <h3 data-logo-wali-grid="">
-                        Loved by frontend and design system teams<br data-logo-wali-grid="" />
-                        <strong data-logo-wali-grid=""> at the world's largest and most innovative companies</strong>
+                    <h3 data-logo-wali-grid="">Loved by frontend and design system teams<br data-logo-wali-grid="" /><strong data-logo-wali-grid=""> at the world's largest and most innovative companies</strong>
                     </h3>
                     <ul data-logo-wali-grid="">
                         {LogoGridArray.map((list) => {
@@ -137,11 +129,7 @@ export default function Home() {
                 theme="themeLight"
                 img="https://stackblitz.com/_astro/ilya_grigorik.wwuGm1Qk_1AX5M8.webp"
                 logo="https://stackblitz.com/_astro/shopify.BV2FCj8e_e70MY.svg"
-                quote={<>
-                    "StackBlitz unlocks a true one-click startup experience with the full stack running in the browser—
-                    <strong>
-                        its a game-changer.
-                    </strong>"
+                quote={<>"StackBlitz unlocks a true one-click startup experience with the full stack running in the browser— <strong>its a game-changer.</strong>"
                 </>}
                 auth="Ilya Grigorik"
                 desc="Principal Engineer at Shopify"
@@ -165,8 +153,7 @@ export default function Home() {
                                 <div data-how-to-wala-part="">
                                     <h3 data-how-to-wala-part=""> Take the "ugh" out of bug reproductions </h3>
                                     <p data-how-to-wala-part="">
-                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">Share complete environments with only a URL</Link>
-                                         and never spin up heavy local installations for a simple bug reproduction <strong data-how-to-wala-part="">ever again.</strong>
+                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">Share complete environments with only a URL</Link> and never spin up heavy local installations for a simple bug reproduction <strong data-how-to-wala-part="">ever again.</strong>
                                     </p>
                                     <p data-how-to-wala-part="">Provide the users of your internal design system or open source library with forkable reproduction template and spend less time reproducing bugs and more time squashing them.</p>
                                 </div>
@@ -177,23 +164,14 @@ export default function Home() {
                                     <h3 data-how-to-wala-part=""> Ship live, interactive documentation </h3>
                                     <p data-how-to-wala-part=""> Make it easy for your design system or open source users to get up and running quickly with live examples they can try out with a single click.</p>
                                     <p data-how-to-wala-part="">
-                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">Use the StackBlitz SDK</Link>
-                                         to embed <strong data-how-to-wala-part=""> actual code </strong>
-                                        in your documentation, blog, or website or build fully customized experiences with the  
-                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">WebContainer API</Link>.</p>
+                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">Use the StackBlitz SDK</Link> to embed <strong data-how-to-wala-part="">actual code</strong> in your documentation, blog, or website or build fully customized experiences with the <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">WebContainer API</Link>.</p>
                                 </div>
                                 <img src="https://stackblitz.com/_astro/interactive_documentation.6m5EDrXi_Zdi3LG.webp" alt="Embed StackBlitz into documentation with the SDK for live coding examples" data-how-to-wala-part="" width="1345" height="957" loading="lazy" decoding="async" />
                             </div>
                             <div className="section-columns" data-how-to-wala-part="" data-all-paragraphs="">
                                 <div data-how-to-wala-part="">
                                     <h3 data-how-to-wala-part=""> Prototype new ideas </h3>
-                                    <p data-how-to-wala-part="">
-                                        Speed up your entire development process with 
-                                        <strong data-how-to-wala-part="">
-                                             real time hot-reloading in the 
-                                            <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">fastest dev environment ever made.</Link>
-                                        </strong>
-                                    </p>
+                                    <p data-how-to-wala-part="">Speed up your entire development process with <strong data-how-to-wala-part=""> real time hot-reloading in the <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">fastest dev environment ever made.</Link></strong></p>
                                     <p data-how-to-wala-part=""> Don't let local configuration stand between you and building out your next great ideas.</p>
                                 </div>
                                 <img src="https://stackblitz.com/_astro/rapid_prototyping.B1aed1fE_ZVnnJ.webp" alt="Collaborate between different devices and rapidly prototype with StackBlitz" data-how-to-wala-part="" width="1345" height="958" loading="lazy" decoding="async" />
@@ -206,11 +184,7 @@ export default function Home() {
                 theme="themeLight"
                 img="https://stackblitz.com/_astro/stephen_fluin.ddNByNR6_bM6uJ.webp"
                 logo="https://stackblitz.com/_astro/google.YQtq5Y0Y_27GL4.svg"
-                quote={<>
-                    "Being able to instantly open and share environments has <strong>
-                        significantly reduced our team's support burden</strong>
-                    for bug reproductions and enabled rapid innovation."
-                </>}
+                quote={<>"Being able to instantly open and share environments has <strong>significantly reduced our team's support burden</strong> for bug reproductions and enabled rapid innovation."</>}
                 auth="Stephen Fluin"
                 desc="Developer Relations Lead at Google"
             />
@@ -223,45 +197,25 @@ export default function Home() {
                                 Powered by WebContainers
                             </h5>
                         </div>
-                        <h1 data-sari-headings="">
-                            <strong> Faster </strong> and
-                            <strong> more secure </strong><br /> than local.
-                        </h1>
+                        <h1 data-sari-headings=""><strong>Faster</strong> and <strong>more secure</strong><br /> than local.</h1>
                     </div>
                     <div className="section-columns" data-web-container-wala="" data-all-paragraphs="">
                         <SmallCard
                             url="https://blog.stackblitz.com/posts/introducing-webcontainers"
-                            title={<>
-                                <strong>Introducing WebContainers:</strong>
-                                Run Node.js in your browser
-                            </>}
+                            title={<><strong>Introducing WebContainers:</strong> Run Node.js in your browser</>}
                             subHead="Read the release"
                             bgImg="https://stackblitz.com/_astro/img/pages/home/card-bg-webcontainer.png"
                         />
                         <div data-web-container-wala="">
-                            <p data-web-container-wala="">
-                                StackBlitz is powered by WebContainers, the first WebAssembly-based micro operating system which boots entire development environments in milliseconds, securely within your browser tab.
-                            </p>
+                            <p data-web-container-wala="">StackBlitz is powered by WebContainers, the first WebAssembly-based micro operating system which boots entire development environments in milliseconds, securely within your browser tab.</p>
                         </div>
                     </div>
                     <div className="section-columns" data-web-container-wala="" data-all-paragraphs="">
                         <div data-web-container-wala="">
                             <h3 data-web-container-wala="">What about online IDEs?</h3>
-                            <p data-web-container-wala="">
-                                <strong data-web-container-wala="">Legacy cloud-based IDEs</strong>
-                                 run on remote servers and
-                                <strong data-web-container-wala="">stream the results back</strong>
-                                 to your browser. This approach yields
-                                <strong data-web-container-wala="">few security benefits</strong>
-                                 and provides a
-                                <strong data-web-container-wala="">worse experience</strong>
-                                 than your local machine in nearly every way.
-                            </p>
+                            <p data-web-container-wala=""><strong data-web-container-wala="">Legacy cloud-based IDEs</strong> run on remote servers and <strong data-web-container-wala="">stream the results back</strong> to your browser. This approach yields <strong data-web-container-wala="">few security benefits</strong> and provides a <strong data-web-container-wala="">worse experience</strong> than your local machine in nearly every way.</p>
                             <p style={{ paddingTop: '15px' }} data-web-container-wala="">
-                                <strong data-web-container-wala="">
-                                    With StackBlitz, all compute occurs inside your browser
-                                </strong>
-                                , making use of decades of speed and security innovations.
+                                <strong data-web-container-wala="">With StackBlitz, all compute occurs inside your browser</strong>, making use of decades of speed and security innovations.
                             </p>
                         </div>
                         <table className="comparison-table" aria-label="Comparison with IDEs" data-table-wala="">
@@ -305,10 +259,7 @@ export default function Home() {
                 theme='themeDark'
                 img="https://stackblitz.com/_astro/rich_harris.F_h1motk_Z1VNrwu.webp"
                 logo="https://stackblitz.com/_astro/svelte.OdrCPOQz_ZwWTF4.svg"
-                quote={<>
-                    "A secure, zero-install, always-current, collaborative EditorWrap that I can access on any machine? Create anything from a throwaway script to a to a full codebase with a single click?
-                    <strong>Sign me the f$#k up.</strong>"
-                </>}
+                quote={<>"A secure, zero-install, always-current, collaborative EditorWrap that I can access on any machine? Create anything from a throwaway script to a to a full codebase with a single click? <strong>Sign me the f$#k up.</strong>"</>}
                 auth="Rich Harris"
                 desc="Svelte &amp; SvelteKit creator"
             />
@@ -317,14 +268,10 @@ export default function Home() {
                     <div className="section-heading" style={{}} data-sari-headings="">
                         <div className="heading" data-sari-headings="">
                             <span className="iconAll Icon-magic-flask" style={{ width: '22px', height: '22px', backgroundColor: 'var(--public-blue-text-20)' }}></span>
-                            <h5 style={{ color: 'var(--public-blue-text-20)' }} data-sari-headings="">
-                                Loved by individuals, teams, and the Fortune 500
-                            </h5>
+                            <h5 style={{ color: 'var(--public-blue-text-20)' }} data-sari-headings="">Loved by individuals, teams, and the Fortune 500</h5>
                         </div>
                         <h1 data-sari-headings="">How will you use StackBlitz?</h1>
-                        <p data-end-wala-para="">
-                            From the open-source teams building the next generation of the web to enterprise design systems teams in the Fortune 500, we're working to make instant, secure-by-default, browser-based development a game-changer for everyone.
-                        </p>
+                        <p data-end-wala-para="">From the open-source teams building the next generation of the web to enterprise design systems teams in the Fortune 500, we're working to make instant, secure-by-default, browser-based development a game-changer for everyone.</p>
                     </div>
                     <div className="section-columns" data-end-wala-para="" data-all-paragraphs="">
                         <SmallCard
@@ -344,16 +291,8 @@ export default function Home() {
             </div>
             <div data-theme="dark" className="container theme_dark_3 section-padding" data-last-block="" data-intro-wrappers="">
                 <div className="container__content " data-last-block="" data-intro-wrappers="">
-                    <h3 data-last-block="">
-                        <strong data-last-block="">
-                            See for yourself.</strong>
-                        <br data-last-block="" />
-                        Boot a fresh environment in <strong data-last-block="">
-                            milliseconds.</strong>
-                    </h3>
-                    <Link className="Link-style-Def last-btn-style" to="/" data-last-block="" data-last-button="">
-                        Create a new project
-                    </Link>
+                    <h3 data-last-block=""><strong data-last-block="">See for yourself.</strong><br data-last-block="" /> Boot a fresh environment in <strong data-last-block="">milliseconds.</strong></h3>
+                    <Link className="Link-style-Def last-btn-style" to="/" data-last-block="" data-last-button="">Create a new project</Link>
                 </div>
             </div>
             <FooterBlock />
