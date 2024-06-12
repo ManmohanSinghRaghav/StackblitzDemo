@@ -107,8 +107,8 @@ export default function Home() {
                         , and <strong data-intro-pura="">debug</strong> frontend code directly in your browser.
                     </p>
                     <div className="home-intro__button-container" data-intro-pura="">
-                        <Link to="/" className="Link-style-Def Link-Style-1 accentLinkBlue size-thoda-bada"> Create your first project</Link>
-                        <Link to="/" className="Link-style-Def Link-Style-1 size-thoda-bada"> Get a demo</Link>
+                         <Link to="/" className="Link-style-Def Link-Style-1 accentLinkBlue size-thoda-bada">Create your first project</Link>
+                         <Link to="/" className="Link-style-Def Link-Style-1 size-thoda-bada">Get a demo</Link>
                     </div>
                     <h3 id="start_new_project" data-intro-pura="">
                         Boot a shareable environment in <strong data-intro-pura="">milliseconds.</strong>
@@ -120,8 +120,7 @@ export default function Home() {
                 <div className="container__content " data-logo-wali-grid="" data-intro-wrappers="">
                     <h3 data-logo-wali-grid="">
                         Loved by frontend and design system teams<br data-logo-wali-grid="" />
-                        <strong data-logo-wali-grid="">
-                            at the world's largest and most innovative companies</strong>
+                        <strong data-logo-wali-grid=""> at the world's largest and most innovative companies</strong>
                     </h3>
                     <ul data-logo-wali-grid="">
                         {LogoGridArray.map((list) => {
@@ -166,12 +165,10 @@ export default function Home() {
                                 <div data-how-to-wala-part="">
                                     <h3 data-how-to-wala-part=""> Take the "ugh" out of bug reproductions </h3>
                                     <p data-how-to-wala-part="">
-                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part=""> Share complete environments with only a URL </Link>
-                                        and never spin up heavy local installations for a simple bug reproduction <strong data-how-to-wala-part="">
-                                            ever again.</strong>
+                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">Share complete environments with only a URL</Link>
+                                         and never spin up heavy local installations for a simple bug reproduction <strong data-how-to-wala-part="">ever again.</strong>
                                     </p>
-                                    <p data-how-to-wala-part="">
-                                        Provide the users of your internal design system or open source library with forkable reproduction template and spend less time reproducing bugs and more time squashing them.</p>
+                                    <p data-how-to-wala-part="">Provide the users of your internal design system or open source library with forkable reproduction template and spend less time reproducing bugs and more time squashing them.</p>
                                 </div>
                                 <img src="https://stackblitz.com/_astro/bug_reports.BGgRQnsM_ZUiMgO.webp" alt="Create instant bug report dev environments with StackBlitz" data-how-to-wala-part="" width="1345" height="958" loading="lazy" decoding="async" />
                             </div>
@@ -180,10 +177,10 @@ export default function Home() {
                                     <h3 data-how-to-wala-part=""> Ship live, interactive documentation </h3>
                                     <p data-how-to-wala-part=""> Make it easy for your design system or open source users to get up and running quickly with live examples they can try out with a single click.</p>
                                     <p data-how-to-wala-part="">
-                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part=""> Use the StackBlitz SDK </Link>
-                                        to embed <strong data-how-to-wala-part=""> actual code </strong>
-                                        in your documentation, blog, or website or build fully customized experiences with the
-                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part=""> WebContainer API </Link>.</p>
+                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">Use the StackBlitz SDK</Link>
+                                         to embed <strong data-how-to-wala-part=""> actual code </strong>
+                                        in your documentation, blog, or website or build fully customized experiences with the  
+                                        <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">WebContainer API</Link>.</p>
                                 </div>
                                 <img src="https://stackblitz.com/_astro/interactive_documentation.6m5EDrXi_Zdi3LG.webp" alt="Embed StackBlitz into documentation with the SDK for live coding examples" data-how-to-wala-part="" width="1345" height="957" loading="lazy" decoding="async" />
                             </div>
@@ -193,8 +190,8 @@ export default function Home() {
                                     <p data-how-to-wala-part="">
                                         Speed up your entire development process with 
                                         <strong data-how-to-wala-part="">
-                                            real time hot-reloading in the
-                                            <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part=""> fastest dev environment ever made.</Link>
+                                             real time hot-reloading in the 
+                                            <Link className="Link-style-Def" to="/"  rel="noopener" data-how-to-wala-part="">fastest dev environment ever made.</Link>
                                         </strong>
                                     </p>
                                     <p data-how-to-wala-part=""> Don't let local configuration stand between you and building out your next great ideas.</p>
@@ -252,13 +249,13 @@ export default function Home() {
                             <h3 data-web-container-wala="">What about online IDEs?</h3>
                             <p data-web-container-wala="">
                                 <strong data-web-container-wala="">Legacy cloud-based IDEs</strong>
-                                run on remote servers and
+                                 run on remote servers and
                                 <strong data-web-container-wala="">stream the results back</strong>
-                                to your browser. This approach yields
+                                 to your browser. This approach yields
                                 <strong data-web-container-wala="">few security benefits</strong>
-                                and provides a
+                                 and provides a
                                 <strong data-web-container-wala="">worse experience</strong>
-                                than your local machine in nearly every way.
+                                 than your local machine in nearly every way.
                             </p>
                             <p style={{ paddingTop: '15px' }} data-web-container-wala="">
                                 <strong data-web-container-wala="">
